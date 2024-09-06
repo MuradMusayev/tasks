@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("https://preview.colorlib.com/theme/startup2/img/banner/banner.png.webp");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.background {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.689);
+}
+h1 {
+  color: #fff;
+  font-size: 78px;
+  width: 60%;
+  margin-bottom: 60px;
+}
+button {
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #615cfd;
+}
+button:hover {
+  background-color: transparent;
+  color: #615cfd;
+  border: 1px solid #615cfd;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+main{
+    padding: 10%;
+}
